@@ -1,0 +1,16 @@
+:root {
+  /* Colors */
+  --color-primary: #4CAF50;
+  --color-secondary: #FF5722;
+  --color-text: #333;
+
+  /* Spacing */
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 32px;
+
+  /* Fonts */
+  --font-main: 'Arial', sans-serif;
+  --font-size-base: 16px;
+  --font-size-lg: 24px;
+}
