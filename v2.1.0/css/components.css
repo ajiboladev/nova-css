@@ -1,0 +1,29 @@
+.nv-btn {
+  display: inline-block;
+  padding: var(--space-sm) var(--space-md);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.nv-btn:hover{
+  background-color:var(--color-secondary) ;
+}
+
+.nv-btn-primary {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.nv-btn-secondary {
+  background-color: var(--color-secondary);
+  color: white;
+}
+
+.nv-card {
+  background: white;
+  padding: var(--space-md);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}

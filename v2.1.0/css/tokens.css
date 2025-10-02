@@ -1,0 +1,75 @@
+:root {
+  /* Colors */
+  --color-primary: #0000ff;
+  --color-secondary:#008000;
+  --color-light-dark:#333;
+  --color-dark:#000000;
+  --color-warning:#ffff00;
+  --color-light:#ffffff;
+  --color-danger:#ff0000;
+  --color-transparent:transparent;
+
+/* Spacing 0 */
+  --space-0:0rem;
+  --space-1:0.25rem;
+  --space-2:0.5rem;
+  --space-3:1rem;
+  --space-4:1.5rem;
+  --space-5:3rem;
+ 
+ 
+  /* Spacing Top*/
+  --space-top-0:0rem;
+  --space-top-1:0.25rem;
+  --space-top-2:0.5rem;
+  --space-top-3:1rem;
+  --space-top-4:1.5rem;
+  --space-top-5:3rem;
+  
+  /* Spacing Bottom*/
+  --space-bottom-0:0rem;
+  --space-bottom-1:0.25rem;
+  --space-bottom-2:0.5rem;
+  --space-bottom-3:1rem;
+  --space-bottom-4:1.5rem;
+  --space-bottom-5:3rem;
+
+  /* Spacing Start*/
+  --space-start-0:0rem;
+  --space-start-1:0.25rem;
+  --space-start-2:0.5rem;
+  --space-start-3:1rem;
+  --space-start-4:1.5rem;
+  --space-start-5:3rem;
+
+  /* Spacing End*/
+  --space-end-0:0rem;
+  --space-end-1:0.25rem;
+  --space-end-2:0.5rem;
+  --space-end-3:1rem;
+  --space-end-4:1.5rem;
+  --space-end-5:3rem;
+ 
+  
+  /* Fonts Size*/
+  --font-main: 'Arial', sans-serif;
+  --font-size-1: 2.5rem;
+  --font-size-2: 2rem;
+  --font-size-3:1.75rem;
+  --font-size-4:1.5rem;
+  --font-size-5:1.25rem;
+  --font-size-6:1rem;
+
+  /* Font Weight */
+  --font-wieght-light:300;
+  --font-weight-normal:400;
+  --font-weight-bold:700;
+
+  /* Title */
+  --title-1:4.5rem;
+  --title-2:4rem;
+  --title-3:3.5rem;
+  --title-4:3rem;
+  --title-5:2.5rem;
+  --title-6:2rem;
+}
