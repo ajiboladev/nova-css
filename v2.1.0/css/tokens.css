@@ -35,20 +35,20 @@
   --space-bottom-5:3rem;
 
   /* Spacing Start*/
-  --space-start-0:0rem;
-  --space-start-1:0.25rem;
-  --space-start-2:0.5rem;
-  --space-start-3:1rem;
-  --space-start-4:1.5rem;
-  --space-start-5:3rem;
+  --space-left-0:0rem;
+  --space-left-1:0.25rem;
+  --space-left-2:0.5rem;
+  --space-left-3:1rem;
+  --space-left-4:1.5rem;
+  --space-left-5:3rem;
 
   /* Spacing End*/
-  --space-end-0:0rem;
-  --space-end-1:0.25rem;
-  --space-end-2:0.5rem;
-  --space-end-3:1rem;
-  --space-end-4:1.5rem;
-  --space-end-5:3rem;
+  --space-right-0:0rem;
+  --space-right-1:0.25rem;
+  --space-right-2:0.5rem;
+  --space-right-3:1rem;
+  --space-right-4:1.5rem;
+  --space-right-5:3rem;
  
   
   /* Fonts Size*/
