@@ -1,0 +1,51 @@
+/* Percentage widths */
+.nv-w-0   { width: 0; display: inline-block; }
+.nv-w-10  { width: 10%; display: inline-block; }
+.nv-w-20  { width: 20%; display: inline-block; }
+.nv-w-25  { width: 25%; display: inline-block; }
+.nv-w-30  { width: 30%; display: inline-block; }
+.nv-w-33  { width: 33%; display: inline-block; }
+.nv-w-40  { width: 40%; display: inline-block; }
+.nv-w-50  { width: 50%; display: inline-block; }
+.nv-w-60  { width: 60%; display: inline-block; }
+.nv-w-66  { width: 66%; display: inline-block; }
+.nv-w-70  { width: 70%; display: inline-block; }
+.nv-w-75  { width: 75%; display: inline-block; }
+.nv-w-80  { width: 80%; display: inline-block; }
+.nv-w-90  { width: 90%; display: inline-block; }
+.nv-w-100 { width: 100%; display: inline-block; }
+
+/* Fixed / auto / min-max */
+.nv-w-auto   { width: auto; display: inline-block; }
+.nv-w-min    { width: min-content; display: inline-block; }
+.nv-w-max    { width: max-content; display: inline-block; }
+
+/* Full viewport */
+.nv-w-screen { width: 100vw; display: inline-block; }
+
+
+
+/* Percentage of viewport height */
+.nv-h-10vh  { height: 10vh; }
+.nv-h-20vh  { height: 20vh; }
+.nv-h-25vh  { height: 25vh; }
+.nv-h-30vh  { height: 30vh; }
+.nv-h-33vh  { height: 33vh; }
+.nv-h-40vh  { height: 40vh; }
+.nv-h-50vh  { height: 50vh; }
+.nv-h-60vh  { height: 60vh; }
+.nv-h-66vh  { height: 66vh; }
+.nv-h-70vh  { height: 70vh; }
+.nv-h-75vh  { height: 75vh; }
+.nv-h-80vh  { height: 80vh; }
+.nv-h-90vh  { height: 90vh; }
+.nv-h-100vh { height: 100vh; }
+
+/* Fixed / auto / min-max */
+.nv-h-auto   { height: auto; }
+.nv-h-min    { height: min-content; }
+.nv-h-max    { height: max-content; }
+
+/* Full viewport height (already covered above, but added for clarity) */
+.nv-h-screen { height: 100vh; }
+

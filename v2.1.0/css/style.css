@@ -1,4 +1,41 @@
-@import url("tokens.css");
-@import url("base.css");
-@import url("utilities.css");
-@import url("components.css");
+/* ==============================
+   BASE AND TOKENS
+============================== */
+@import url('base.css');
+@import url('tokens.css');
+
+/* ==============================
+   UTILITIES
+============================== */
+@import url('utilities/spacing.css');
+@import url('utilities/flex.css');
+@import url('utilities/text.css');
+@import url('utilities/border.css');
+@import url('utilities/width-height.css');
+@import url("utilities/color.css");
+
+/* ==============================
+   COMPONENTS
+============================== */
+
+/* BUTTON */
+@import url('components/button/button-base.css');
+@import url('components/button/button-primary.css');
+@import url('components/button/button-secondary.css');
+
+/* CARD */
+@import url('components/card/card-base.css');
+@import url('components/card/card-primary.css');
+@import url('components/card/card-dashboard.css');
+
+/* NAVBAR */
+@import url('components/navbar/navbar-base.css');
+@import url('components/navbar/navbar-dropdown.css');
+
+/* MODAL */
+@import url('components/modal/modal-base.css');
+@import url('components/modal/modal-animations.css');
+
+/* DROPDOWN */
+@import url('components/dropdown/dropdown-base.css');
+@import url('components/dropdown/dropdown-variants.css');

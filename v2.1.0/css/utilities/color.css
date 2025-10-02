@@ -1,0 +1,19 @@
+/* Backgrounds */
+.nv-bg-primary { background-color: var(--color-primary); }
+.nv-bg-secondary { background-color: var(--color-secondary); }
+.nv-bg-danger { background-color: var(--color-danger); }
+.nv-bg-light-dark { background-color: var(--color-light-dark); }
+.nv-bg-dark { background-color: var(--color-dark); }
+.nv-bg-warning { background-color: var(--color-warning); }
+.nv-bg-light { background-color: var(--color-light); }
+.nv-bg-transparent { background-color: var(--color-transparent); }
+
+
+/* Text */
+.nv-text-primary { color: var(--color-primary); }
+.nv-text-secondary { color: var(--color-secondary); }
+.nv-text-dark { color: var(--color-dark); }
+.nv-text-light-dark { color: var(--color-light-dark); }
+.nv-text-danger { color: var(--color-danger); }
+.nv-text-warning { color: var(--color-warning); }
+.nv-text-light { color: var(--color-light); }

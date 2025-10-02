@@ -1,0 +1,38 @@
+/* All sides border */
+.nv-border-0 { border: 0; }
+.nv-border-1 { border: 1px solid; }
+.nv-border-2 { border: 2px solid; }
+.nv-border-3 { border: 3px solid; }
+
+/* Optional: dashed, dotted, none */
+.nv-border-dashed { border-style: dashed; }
+.nv-border-dotted { border-style: dotted; }
+.nv-border-solid  { border-style: solid; }
+
+/* Border Sides */
+.nv-border-top    { border-top: 1px solid; }
+.nv-border-bottom { border-bottom: 1px solid; }
+.nv-border-left   { border-left: 1px solid; }
+.nv-border-right  { border-right: 1px solid; }
+
+/* Border Radius */
+.nv-radius-0   { border-radius: 0; }
+.nv-radius-sm  { border-radius: 0.25rem; }
+.nv-radius-md  { border-radius: 0.5rem; }
+.nv-radius-lg  { border-radius: 1rem; }
+.nv-radius-full { border-radius: 50%; } /* fully rounded, like pills */
+
+/* Outline */
+.nv-outline-0      { outline: 0; }
+.nv-outline-1      { outline: 1px solid; }
+.nv-outline-2      { outline: 2px solid; }
+.nv-outline-dashed { outline: 1px dashed; }
+.nv-outline-none   { outline: none; }
+
+
+/* Box Shadows */
+.nv-shadow-sm   { box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.nv-shadow-md   { box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+.nv-shadow-lg   { box-shadow: 0 10px 15px rgba(0,0,0,0.15); }
+.nv-shadow-xl   { box-shadow: 0 20px 25px rgba(0,0,0,0.2); }
+.nv-shadow-none { box-shadow: none; }
