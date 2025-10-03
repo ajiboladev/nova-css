@@ -1,49 +1,45 @@
+/* 
+/* Font Family */
+.nv-fm   { font-family: var(--font-main); }
+
 /* Font Size */
-.nv-fm   {font-family: var(--font-main);}
-.nv-fs-1 {font-size: var(--font-size-1);}
-.nv-fs-2 {font-size: var(--font-size-2);}
-.nv-fs-3 {font-size: var(--font-size-3);}
-.nv-fs-4 {font-size: var(--font-size-4);}
-.nv-fs-5 {font-size: var(--font-size-5);}
-.nv-fs-6 {font-size: var(--font-size-6);}
-
-
-
+.nv-fs-1 { font-size: var(--font-size-1); }
+.nv-fs-2 { font-size: var(--font-size-2); }
+.nv-fs-3 { font-size: var(--font-size-3); }
+.nv-fs-4 { font-size: var(--font-size-4); }
+.nv-fs-5 { font-size: var(--font-size-5); }
+.nv-fs-6 { font-size: var(--font-size-6); }
 
 /* Font Weight */
-.nv-fw-l {font-weight: var(--font-weight-light);}
-.nv-fw-n {font-weight: var(--font-weight-norman);}
-.nv-fw-b {font-weight: var(--font-weight-bold);}
+.nv-fw-l { font-weight: var(--font-weight-light); }
+.nv-fw-n { font-weight: var(--font-weight-normal); }
+.nv-fw-b { font-weight: var(--font-weight-bold); }
+.nv-fw-sb { font-weight: var(--font-weight-semibold); } /* optional new */
 
+/* Titles */
+.nv-title-1 { font-size: var(--title-1); font-weight: var(--font-weight-bold); }
+.nv-title-2 { font-size: var(--title-2); font-weight: var(--font-weight-bold); }
+.nv-title-3 { font-size: var(--title-3); font-weight: var(--font-weight-bold); }
+.nv-title-4 { font-size: var(--title-4); font-weight: var(--font-weight-bold); }
+.nv-title-5 { font-size: var(--title-5); font-weight: var(--font-weight-semibold); }
+.nv-title-6 { font-size: var(--title-6); font-weight: var(--font-weight-semibold); }
 
-
-
-/* Title */
-.nv-title-1 {font-size: var(--title-1); font-weight: var(--font-weight-bold);}
-.nv-title-2 {font-size: var(--title-2); font-weight: var(--font-weight-bold);}
-.nv-title-3 {font-size: var(--title-3); font-weight: var(--font-weight-bold);}
-.nv-title-4 {font-size: var(--title-4); font-weight: var(--font-weight-bold);}
-.nv-title-5 {font-size: var(--title-5); font-weight: 600;}
-.nv-title-6 {font-size: var(--title-6); font-weight: 600;}
-
-
-                                /* Text */
 /* Text Alignment */
-.nv-text-left {text-align: left;}
-.nv-text-right {text-align: right;}
-.nv-text-center {text-align: center;}
-.nv-text-justify {text-align: justify;}
+.nv-text-left { text-align: left; }
+.nv-text-right { text-align: right; }
+.nv-text-center { text-align: center; }
+.nv-text-justify { text-align: justify; }
 
 /* Text Decoration */
-.nv-text-none {text-decoration: none;}
-.nv-text-underline {text-decoration: underline;}
-.nv-text-line-through {text-decoration: line-through;}
+.nv-text-none { text-decoration: none; }
+.nv-text-underline { text-decoration: underline; }
+.nv-text-line-through { text-decoration: line-through; }
 
 /* Text Transform */
-.nv-text-upper {text-transform: uppercase;}
-.nv-text-lower {text-transform: lowercase;}
-.nv-text-capital {text-transform: capitalize;}
-.nv-text-normal {text-transform: none;}
+.nv-text-upper { text-transform: uppercase; }
+.nv-text-lower { text-transform: lowercase; }
+.nv-text-capital { text-transform: capitalize; }
+.nv-text-normal { text-transform: none; }
 
 /* Font Style */
 .nv-font-i { font-style: italic; }
@@ -57,7 +53,6 @@
 .nv-ls-4 { letter-spacing: 0.2em; }
 .nv-ls-5 { letter-spacing: 0.3em; }
 
-/* Text Overflow/Wrapping */
-.nv-text-nowrap {white-space: nowrap;}
-.nv-text-truncate {overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
-
+/* Text Overflow / Wrapping */
+.nv-text-nowrap { white-space: nowrap; }
+.nv-text-truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }

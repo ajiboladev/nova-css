@@ -1,0 +1,8 @@
+/* Secondary */
+.nv-btn-secondary {
+  background-color: var(--color-secondary);
+  color: var(--color-light);
+}
+.nv-btn-secondary:hover {
+  background-color: #006400; /* darker green */
+}

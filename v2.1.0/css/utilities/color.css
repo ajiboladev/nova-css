@@ -1,4 +1,4 @@
-/* Backgrounds */
+/* Backgrounds
 .nv-bg-primary { background-color: var(--color-primary); }
 .nv-bg-secondary { background-color: var(--color-secondary); }
 .nv-bg-danger { background-color: var(--color-danger); }
@@ -9,11 +9,55 @@
 .nv-bg-transparent { background-color: var(--color-transparent); }
 
 
-/* Text */
+Text
 .nv-text-primary { color: var(--color-primary); }
 .nv-text-secondary { color: var(--color-secondary); }
 .nv-text-dark { color: var(--color-dark); }
 .nv-text-light-dark { color: var(--color-light-dark); }
 .nv-text-danger { color: var(--color-danger); }
 .nv-text-warning { color: var(--color-warning); }
-.nv-text-light { color: var(--color-light); }
+.nv-text-light { color: var(--color-light); } */
+
+/* ================= Colors ================= */
+
+/* Backgrounds */
+.nv-bg-primary      { background-color: var(--color-primary); }
+.nv-bg-secondary    { background-color: var(--color-secondary); }
+.nv-bg-danger       { background-color: var(--color-danger); }
+.nv-bg-warning      { background-color: var(--color-warning); }
+.nv-bg-dark         { background-color: var(--color-dark); }
+.nv-bg-light-dark   { background-color: var(--color-light-dark); }
+.nv-bg-light        { background-color: var(--color-light); }
+.nv-bg-transparent  { background-color: transparent; }
+
+/* Text Colors */
+.nv-text-primary    { color: var(--color-primary); }
+.nv-text-secondary  { color: var(--color-secondary); }
+.nv-text-danger     { color: var(--color-danger); }
+.nv-text-warning    { color: var(--color-warning); }
+.nv-text-dark       { color: var(--color-dark); }
+.nv-text-light-dark { color: var(--color-light-dark); }
+.nv-text-light      { color: var(--color-light); }
+
+/* Borders */
+.nv-border-primary   { border-color: var(--color-primary); }
+.nv-border-secondary { border-color: var(--color-secondary); }
+.nv-border-danger    { border-color: var(--color-danger); }
+.nv-border-warning   { border-color: var(--color-warning); }
+.nv-border-dark      { border-color: var(--color-dark); }
+.nv-border-light     { border-color: var(--color-light); }
+
+/* Hover States (Optional - easy for buttons/links) */
+.nv-hover-bg-primary:hover    { background-color: var(--color-primary); }
+.nv-hover-bg-secondary:hover  { background-color: var(--color-secondary); }
+.nv-hover-bg-danger:hover     { background-color: var(--color-danger); }
+.nv-hover-bg-warning:hover    { background-color: var(--color-warning); }
+.nv-hover-bg-dark:hover       { background-color: var(--color-dark); }
+.nv-hover-bg-light:hover      { background-color: var(--color-light); }
+
+.nv-hover-text-primary:hover   { color: var(--color-primary); }
+.nv-hover-text-secondary:hover { color: var(--color-secondary); }
+.nv-hover-text-danger:hover    { color: var(--color-danger); }
+.nv-hover-text-warning:hover   { color: var(--color-warning); }
+.nv-hover-text-dark:hover      { color: var(--color-dark); }
+.nv-hover-text-light:hover     { color: var(--color-light); }

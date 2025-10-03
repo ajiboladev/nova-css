@@ -37,13 +37,22 @@
 .nv-content-around  { align-content: space-around; }
 .nv-content-stretch { align-content: stretch; }
 
+/* Align Self */
+.nv-self-auto     { align-self: auto; }
+.nv-self-start    { align-self: flex-start; }
+.nv-self-center   { align-self: center; }
+.nv-self-end      { align-self: flex-end; }
+.nv-self-stretch  { align-self: stretch; }
+
+
 /* Gap */
-.nv-g-0  { gap: 0; }
-.nv-g-1  { gap: 0.25rem; }
-.nv-g-2  { gap: 0.5rem; }
-.nv-g-3  { gap: 1rem; }
-.nv-g-4  { gap: 1.5rem; }
-.nv-g-5  { gap: 3rem; }
+.nv-g-0 { gap: var(--space-0); }
+.nv-g-1 { gap: var(--space-1); }
+.nv-g-2 { gap: var(--space-2); }
+.nv-g-3 { gap: var(--space-3); }
+.nv-g-4 { gap: var(--space-4); }
+.nv-g-5 { gap: var(--space-5); }
+
 
 /* Flex Grow /Shrinks /Basis */
 .nv-flex-1 { flex: 1 1 0%; }

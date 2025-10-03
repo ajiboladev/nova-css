@@ -1,0 +1,11 @@
+/* Outline Dark */
+.nv-btn-outline-dark {
+  color: var(--color-dark);
+  border: 1px solid var(--color-dark);
+  background-color: transparent;
+}
+.nv-btn-outline-dark:hover {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+}
+

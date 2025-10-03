@@ -1,0 +1,33 @@
+/* ==========================
+   OUTLINE UTILITIES (NV)
+   ========================== */
+
+/* Outline Width */
+.nv-o-0 { outline-width: 0; }
+.nv-o-1 { outline-width: 1px; }
+.nv-o-2 { outline-width: 2px; }
+.nv-o-3 { outline-width: 3px; }
+.nv-o-4 { outline-width: 4px; }
+.nv-o-5 { outline-width: 5px; }
+
+/* Outline Style */
+.nv-o-solid  { outline-style: solid; }
+.nv-o-dashed { outline-style: dashed; }
+.nv-o-dotted { outline-style: dotted; }
+.nv-o-double { outline-style: double; }
+.nv-o-none   { outline-style: none; }
+
+/* Outline Color */
+.nv-o-red    { outline-color: red; }
+.nv-o-green  { outline-color: green; }
+.nv-o-blue   { outline-color: blue; }
+.nv-o-black  { outline-color: black; }
+.nv-o-white  { outline-color: white; }
+
+/* Outline Offset */
+.nv-oo-0 { outline-offset: 0; }
+.nv-oo-1 { outline-offset: 1px; }
+.nv-oo-2 { outline-offset: 2px; }
+.nv-oo-3 { outline-offset: 3px; }
+.nv-oo-4 { outline-offset: 4px; }
+.nv-oo-5 { outline-offset: 5px; }

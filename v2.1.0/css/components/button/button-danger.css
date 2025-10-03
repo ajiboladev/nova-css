@@ -1,0 +1,8 @@
+/* Danger */
+.nv-btn-danger {
+  background-color: var(--color-danger);
+  color: var(--color-light);
+}
+.nv-btn-danger:hover {
+  background-color: #cc0000; /* darker red */
+}

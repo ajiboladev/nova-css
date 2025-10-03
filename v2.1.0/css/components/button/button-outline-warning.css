@@ -1,0 +1,11 @@
+/* Outline Warning */
+.nv-btn-outline-warning {
+  color: var(--color-warning);
+  border: 1px solid var(--color-warning);
+  background-color: transparent;
+}
+.nv-btn-outline-warning:hover {
+  background-color: var(--color-warning);
+  color: var(--color-dark);
+}
+

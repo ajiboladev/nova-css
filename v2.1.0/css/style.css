@@ -22,6 +22,18 @@
 @import url('components/button/button-base.css');
 @import url('components/button/button-primary.css');
 @import url('components/button/button-secondary.css');
+@import url('components/button/button-warning.css');
+@import url('components/button/button-light.css');
+@import url('components/button/button-dark.css');
+@import url('components/button/button-danger.css');
+@import url('components/button/button-outline-warning.css');
+@import url('components/button/button-outline-secondary.css');
+@import url('components/button/button-outline-primary.css');
+@import url('components/button/button-outline-light.css');
+@import url('components/button/button-outline-dark-light.css');
+@import url('components/button/button-outline-dark.css');
+@import url('components/button/button-outline-danger.css');
+
 
 /* CARD */
 @import url('components/card/card-base.css');

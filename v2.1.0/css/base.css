@@ -7,8 +7,52 @@
 
 body {
   font-family: var(--font-main);
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-6);
   color: var(--color-dark);
   background-color: #f9f9f9;
   line-height: 1.5;
+}
+
+/* Reset defaults */
+html, body {
+  height: 100%;
+  scroll-behavior: smooth; /* nice scrolling */
+}
+
+/* Remove list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Reset links */
+a {
+  text-decoration: none;
+  color: inherit; /* inherit from parent */
+}
+
+/* Images & media */
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Forms */
+input, button, textarea, select {
+  font: inherit; /* inherit font from body */
+  color: inherit;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+/* Buttons reset */
+button {
+  cursor: pointer;
+}
+
+/* Table reset */
+table {
+  border-collapse: collapse;
+  width: 100%;
 }

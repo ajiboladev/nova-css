@@ -1,0 +1,68 @@
+/* ===========================
+   BUTTON BASE STYLES
+=========================== */
+/* Base Button Reset */
+.nv-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem; /* space between icon/text */
+
+  font-family: inherit;
+  font-size: var(--font-size-6);
+  font-weight: 500;
+  line-height: 1.25;
+
+  padding: 0.5rem 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.375rem;
+  border: none;
+  cursor: pointer;
+
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+  text-decoration: none;
+  background-color: #eaeaea;  /* default neutral background */
+  color: var(--color-dark);   /* default text */
+}
+
+/* Hover + Active (neutral by default, variants will override) */
+.nv-btn:hover {
+  background-color: #dcdcdc;
+}
+
+.nv-btn:active {
+  background-color: #c9c9c9;
+}
+
+/* Disabled state (two options) */
+.nv-btn:disabled,
+.nv-btn[disabled],
+.nv-btn-disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  pointer-events: none;
+  background-color: #e0e0e0;
+  color: #888;
+}
+
+/* Full-width utility */
+.nv-btn-block {
+  display: flex;
+  width: 100%;
+}
+
+
+
+/* Base button shared styles */
+.nv-btn {
+  display: inline-block;
+  font-family: var(--font-main);
+  font-size: var(--font-size-6); /* default button text */
+  font-weight: var(--font-weight-normal);
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-md);
+  border: none;
+  cursor: pointer;
+  transition: background-color var(--transition-fast), color var(--transition-fast);
+}

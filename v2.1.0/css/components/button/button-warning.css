@@ -1,0 +1,8 @@
+/* Warning */
+.nv-btn-warning {
+  background-color: var(--color-warning);
+  color: var(--color-dark);
+}
+.nv-btn-warning:hover {
+  background-color: #e6e600; /* darker yellow */
+}
