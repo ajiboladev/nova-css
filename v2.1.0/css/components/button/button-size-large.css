@@ -1,0 +1,10 @@
+.nv-btn-lg {
+  font-size: var(--font-size-4); /* large text */
+  padding: 0.75rem 1.5rem;       /* adjust padding for large button */
+  border-radius: var(--radius-md);
+  transition: var(--transition-fast);
+}
+
+.nv-btn-lg:hover {
+  opacity: 0.9; /* subtle hover effect */
+}

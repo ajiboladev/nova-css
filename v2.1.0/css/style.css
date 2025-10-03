@@ -33,6 +33,8 @@
 @import url('components/button/button-outline-dark-light.css');
 @import url('components/button/button-outline-dark.css');
 @import url('components/button/button-outline-danger.css');
+@import url('components/button/button-size-large.css');
+@import url('components/button/button-size-small.css');
 
 
 /* CARD */

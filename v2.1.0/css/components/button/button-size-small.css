@@ -1,0 +1,14 @@
+/* ===========================
+   BUTTON SIZES
+   =========================== */
+
+.nv-btn-sm {
+  font-size: var(--font-size-6); /* small text */
+  padding: 0.25rem 0.5rem;       /* adjust padding for small button */
+  border-radius: var(--radius-sm);
+  transition: var(--transition-fast);
+}
+
+.nv-btn-sm:hover {
+  opacity: 0.9; /* subtle hover effect */
+}
