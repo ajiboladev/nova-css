@@ -53,6 +53,14 @@
 .nv-ls-4 { letter-spacing: 0.2em; }
 .nv-ls-5 { letter-spacing: 0.3em; }
 
+/* Word Spacing */
+/* Letter Spacing */
+.nv-ws-1 { word-spacing: 1em; }
+.nv-ws-2 { word-spacing: 1.5em; }
+.nv-ws-3 { word-spacing: 2.5em; }
+.nv-ws-4 { word-spacing: 3em; }
+.nv-ws-5 { word-spacing: 5em; }
+
 /* Text Overflow / Wrapping */
 .nv-text-nowrap { white-space: nowrap; }
 .nv-text-truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
