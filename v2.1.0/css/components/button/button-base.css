@@ -36,15 +36,25 @@
 }
 
 /* Disabled state (two options) */
+.nv-disabled,
 .nv-btn:disabled,
 .nv-btn[disabled],
 .nv-btn-disabled {
-  opacity: 0.6;
+  opacity: 0.5;
   cursor: not-allowed;
   pointer-events: none;
   background-color: #e0e0e0;
   color: #888;
 }
+
+.nv-active,
+.nv-btn:active,
+.nv-btn-active {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+  transform: scale(0.98);
+}
+
 
 /* Full-width utility */
 .nv-btn-block {
