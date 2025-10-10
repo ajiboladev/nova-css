@@ -100,12 +100,6 @@ Box Shadows
 .nv-radius-lg   { border-radius: var(--radius-lg, 1rem); }
 .nv-radius-full { border-radius: var(--radius-full, 50%); }
 
-/* Outline  neeed solution for next version*/
-.nv-outline-0      { outline: 0; }
-.nv-outline-1      { outline: var(--border-width-1) solid var(--border-color, currentColor); }
-.nv-outline-2      { outline: var(--border-width-2) solid var(--border-color, currentColor); }
-.nv-outline-dashed { outline: var(--border-width-1) dashed var(--border-color, currentColor); }
-.nv-outline-none   { outline: none; }
 
 /* Box Shadows  neeed solution for next version*/
 .nv-shadow-sm   { box-shadow: var(--shadow-sm, 0 1px 2px rgba(0,0,0,0.05)); }
