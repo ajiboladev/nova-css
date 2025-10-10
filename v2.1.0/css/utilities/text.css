@@ -64,3 +64,10 @@
 /* Text Overflow / Wrapping */
 .nv-text-nowrap { white-space: nowrap; }
 .nv-text-truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* Line Height */
+.nv-lh-1 { line-height: 1rem; }
+.nv-lh-2 { line-height: 1.5rem; }
+.nv-lh-3 { line-height: 2rem; }
+.nv-lh-4 { line-height: 2.5rem; }
+.nv-lh-5 { line-height: 4rem; }
