@@ -87,11 +87,10 @@ Box Shadows
 /* Border Colors */
 .nv-border-primary   { border-color: var(--color-primary); }
 .nv-border-secondary { border-color: var(--color-secondary); }
-.nv-border-success   { border-color: var(--color-success); }
 .nv-border-danger    { border-color: var(--color-danger); }
 .nv-border-warning   { border-color: var(--color-warning); }
-.nv-border-info      { border-color: var(--color-info); }
 .nv-border-light     { border-color: var(--color-light); }
+.nv-border-light-dark     { border-color: var(--color-light-dark); }
 .nv-border-dark      { border-color: var(--color-dark); }
 
 /* Border Radius */
