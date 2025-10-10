@@ -144,4 +144,12 @@ Spacing 0
   --z-mid: 100;
   --z-high: 1000;
   --z-top: 9999;
+
+  /* ================================
+    BORDER VARIABLES
+  /* 🧱 Border Widths */
+  --border-width-1: 1px;
+  --border-width-2: 2px;
+  --border-width-3: 3px;
+  --border-width-4: 4px;
 }

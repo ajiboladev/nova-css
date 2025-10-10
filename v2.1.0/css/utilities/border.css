@@ -46,6 +46,7 @@ Box Shadows
 .nv-border-1 { border: var(--border-width-1) solid var(--border-color, currentColor); }
 .nv-border-2 { border: var(--border-width-2) solid var(--border-color, currentColor); }
 .nv-border-3 { border: var(--border-width-3) solid var(--border-color, currentColor); }
+.nv-border-4 { border: var(--border-width-4) solid var(--border-color, currentColor); }
 
 /* Border Styles */
 .nv-border-solid  { border-style: solid; }
@@ -53,11 +54,35 @@ Box Shadows
 .nv-border-dotted { border-style: dotted; }
 .nv-border-none   { border: none; }
 
-/* Border Sides */
-.nv-border-top    { border-top: var(--border-width-1) solid var(--border-color, currentColor); }
-.nv-border-bottom { border-bottom: var(--border-width-1) solid var(--border-color, currentColor); }
-.nv-border-left   { border-left: var(--border-width-1) solid var(--border-color, currentColor); }
-.nv-border-right  { border-right: var(--border-width-1) solid var(--border-color, currentColor); }
+/* Border All Sides */
+.nv-border-1 { border-width: var(--border-width-1); }
+.nv-border-2 { border-width: var(--border-width-2); }
+.nv-border-3 { border-width: var(--border-width-3); }
+.nv-border-4 { border-width: var(--border-width-4); }
+
+/* Border Top */
+.nv-border-top-1 { border-top-width: var(--border-width-1); }
+.nv-border-top-2 { border-top-width: var(--border-width-2); }
+.nv-border-top-3 { border-top-width: var(--border-width-3); }
+.nv-border-top-4 { border-top-width: var(--border-width-4); }
+
+/* Border Right */
+.nv-border-right-1 { border-right-width: var(--border-width-1); }
+.nv-border-right-2 { border-right-width: var(--border-width-2); }
+.nv-border-right-3 { border-right-width: var(--border-width-3); }
+.nv-border-right-4 { border-right-width: var(--border-width-4); }
+
+/* Border Bottom */
+.nv-border-bottom-1 { border-bottom-width: var(--border-width-1); }
+.nv-border-bottom-2 { border-bottom-width: var(--border-width-2); }
+.nv-border-bottom-3 { border-bottom-width: var(--border-width-3); }
+.nv-border-bottom-4 { border-bottom-width: var(--border-width-4); }
+
+/* Border Left */
+.nv-border-left-1 { border-left-width: var(--border-width-1); }
+.nv-border-left-2 { border-left-width: var(--border-width-2); }
+.nv-border-left-3 { border-left-width: var(--border-width-3); }
+.nv-border-left-4 { border-left-width: var(--border-width-4); }
 
 /* Border Colors */
 .nv-border-primary   { border-color: var(--color-primary); }
