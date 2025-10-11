@@ -10,6 +10,13 @@
 .nv-o-4 { outline-width: 4px; }
 .nv-o-5 { outline-width: 5px; }
 
+/* Outline FallBack Style */
+.nv-o-1, .nv-o-2, .nv-o-3, .nv-o-4, .nv-o-5 {
+  outline-style: solid;
+  outline-color: currentColor;
+}
+
+
 /* Outline Style */
 .nv-o-solid  { outline-style: solid; }
 .nv-o-dashed { outline-style: dashed; }
@@ -18,11 +25,14 @@
 .nv-o-none   { outline-style: none; }
 
 /* Outline Color */
-.nv-o-danger    { outline-color: red; }
-.nv-o-secondary  { outline-color: green; }
-.nv-o-primary   { outline-color: blue; }
-.nv-o-dark  { outline-color: black; }
-.nv-o-light { outline-color: white; }
+.nv-o-danger { outline-color: var(--danger); }
+.nv-o-primary { outline-color: var(--primary); }
+.nv-o-secondary { outline-color: var(--secondary); }
+.nv-o-dark { outline-color: var(--dark); }
+.nv-o-light { outline-color: var(--light); }
+.nv-o-light-dark { outline-color: var(--light-dark); }
+.nv-o-warning { outline-color: var(--warning); }
+.nv-o-transparent { outline-color: transparent; }
 
 /* Outline Offset */
 .nv-oo-0 { outline-offset: 0; }
