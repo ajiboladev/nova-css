@@ -2,6 +2,7 @@
 .nv-d-flex       { display: flex; }
 .nv-d-inline-flex { display: inline-flex; }
 .nv-d-none  { display: none; }
+.nv-d-inline { display: inline; }
 
 /* Flex Derection */
 .nv-flex-row        { flex-direction: row; }
